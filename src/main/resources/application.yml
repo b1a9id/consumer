@@ -1,1 +1,4 @@
-
+server:
+  port: 8081
+producer:
+  url: http://localhost:8080/brands
