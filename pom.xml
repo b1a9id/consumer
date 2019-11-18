@@ -62,14 +62,6 @@
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-contract-maven-plugin</artifactId>
 				<version>${spring-cloud-contract-maven-plugin.verison}</version>
-				<executions>
-					<execution>
-						<goals>
-							<goal>convert</goal>
-							<goal>generateTests</goal>
-						</goals>
-					</execution>
-				</executions>
 				<configuration>
 					<testFramework>JUNIT5</testFramework>
 				</configuration>
